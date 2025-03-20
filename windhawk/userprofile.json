@@ -1,0 +1,20 @@
+{
+  "app": {
+    "latestVersion": "1.5.1",
+    "version": "1.5.1"
+  },
+  "id": "{B760B461-4844-4A74-AAA5-0DE555375C83}",
+  "mods": {
+    "windows-11-taskbar-styler": {
+      "version": "1.3.10",
+      "latestVersion": "1.3.10",
+      "disabled": false
+    },
+    "windows-11-start-menu-styler": {
+      "version": "1.2.1",
+      "latestVersion": "1.2.1",
+      "disabled": false
+    }
+  },
+  "os": "10.0.26100"
+}
