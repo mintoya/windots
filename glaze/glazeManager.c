@@ -23,18 +23,18 @@ int main(void) {
     exit(1);
   }
 
-  /* if ((outfile = fopen("out.json", "w")) == NULL) { */
-  /*   printf("failed to open pipe\n"); */
-  /*   exit(1); */
-  /* } */
+  //  if ((outfile = fopen("out.json", "w")) == NULL) {
+  //    printf("failed to open pipe\n");
+  //    exit(1);
+  // }
   char result[1024];
   while (fgets(result, 1024, infile)) {
-    /* if ((outfile = fopen("out.json", "a")) == NULL) { */
-    /*   printf("failed to open pipe\n"); */
-    /*   exit(1); */
-    /* } */
+     // if ((outfile = fopen("out.json", "a")) == NULL) {
+     //   printf("failed to open pipe\n");
+     //   exit(1);
+     // }
     handler(result);
-    /* fprintf(outfile, result); */
+    // fprintf(outfile, result);
   }
   fclose(infile);
   return 0;
